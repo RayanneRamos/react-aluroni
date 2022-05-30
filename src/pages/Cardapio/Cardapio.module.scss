@@ -1,5 +1,6 @@
-@import '../../styles/variaveis';
-@import '../../styles/breakpoints';
+
+@import "../../styles/variaveis";
+@import "../../styles/breakpoints";
 
 .menu {
   padding: 20px $padding-horizontal;
@@ -16,7 +17,7 @@
 
 .header {
   align-items: center;
-  background-image: url("../../assets/cardapio/header.png");
+  background-image: url("/assets/cardapio/header.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -31,7 +32,7 @@
   @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
     padding: 0px $padding-horizontal-md;
   }
-  &Text {
+  &__text {
     color: white;
     font-size: 5rem;
     min-width: 400px;
@@ -50,9 +51,17 @@
   @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
     padding: 50px $padding-horizontal-md;
   }
-  &Titulo {
+  &__titulo {
     color: $dark;
     font-size: 3rem;
     margin-bottom: 30px;
+  }
+  &__filtros {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
   }
 }
