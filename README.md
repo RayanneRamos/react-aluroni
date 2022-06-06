@@ -13,9 +13,9 @@
  - [x] Módulo 1
  - [x] Módulo 2
  - [x] Módulo 3
- - [] Módulo 4
- - [] Módulo 5
- - [] Módulo 6
+ - [x] Módulo 4
+ - [x] Módulo 5
+ - [x] Módulo 6
 
 ## 🧪 Technologies
 
@@ -55,7 +55,7 @@ Você pode visualizar o layout do projeto através:
  - [LayoutWeb] EM BREVE! 
 
 ## 🔥 Desafios
-  - [] Responsividade
+  - [x] Responsividade
   - [] Testes
   - [] Deploy
  
