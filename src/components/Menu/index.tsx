@@ -1,6 +1,7 @@
 import React from 'react';
 import { ReactComponent as LogoImg} from 'assets/aluroni.svg';
 import styles from './Menu.module.scss';
+import { Link } from 'react-router-dom';
 
 function Menu() {
 
@@ -21,9 +22,9 @@ function Menu() {
       <ul className={styles.menu__list}>
         { rotas.map((rota, index) => (
           <li key={index} className={styles.menu__link}>
-            <a href={rota.to}>
+            <Link to={rota.to}>
               {rota.label}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
