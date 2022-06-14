@@ -16,7 +16,7 @@ function NotFound() {
     })}>
       <div className={styles.voltar}>
         <button onClick={() => navigate(-1)}>
-          {'< Voltar'}
+          {' < Voltar '}
         </button>
       </div>
       <NotFoundImage />
