@@ -35,6 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
  - [TypescriptPluginCSSModules](https://www.npmjs.com/package/typescript-plugin-css-modules)
  - [NormalizeCSS](https://necolas.github.io/normalize.css/)
  - [classnames](https://www.npmjs.com/package/classnames)
+ - [ReactRouterDom](https://reactrouter.com/)
 
 
 ## 🚀 Instalação
