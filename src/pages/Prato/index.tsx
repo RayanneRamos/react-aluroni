@@ -6,6 +6,7 @@ import cardapio from 'data/cardapio.json';
 import { useNavigate } from 'react-router-dom';
 import { TagsPrato } from 'components/TagsPrato';
 import { NotFound } from 'pages/NotFound';
+import { Header } from 'components/Header';
 
 function Prato() {
 
@@ -18,7 +19,7 @@ function Prato() {
   }
 
   return(
-    <>
+    <Header>
       <button className={styles.voltar} onClick={() => navigate(-1)}>
         { ' < Voltar ' }
       </button>
@@ -36,7 +37,7 @@ function Prato() {
           <TagsPrato {...prato} />
         </div>
       </section>
-    </>
+    </Header>
   );
 }
 
