@@ -5,6 +5,7 @@ import classNames from 'classnames';
 import cardapio from 'data/cardapio.json';
 import { useNavigate } from 'react-router-dom';
 import { TagsPrato } from 'components/TagsPrato';
+import { NotFound } from 'pages/NotFound';
 
 function Prato() {
 
@@ -13,7 +14,7 @@ function Prato() {
   const navigate = useNavigate();
 
   if(!prato) {
-    return '';
+    return <NotFound />;
   }
 
   return(
