@@ -68,6 +68,10 @@ Você pode visualizar o layout do projeto através:
   - [x] Responsividade
   - [ ] Testes
   - [x] Deploy
+  - [ ] Adicionar mais pratos
+  - [ ] Adicionar mais categorias
+  - [ ] Adicionar tema dark
+  - [ ] Resolver o bug do botão voltar
  
 
 ## 📝 License
